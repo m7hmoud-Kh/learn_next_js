@@ -1,6 +1,11 @@
 import Image from 'next/image';
 import React from 'react'
 import natureImage from '../../../public/nature.jpg'
+
+export const metadata = {
+  title : "About Page"
+}
+
 const About = async () => {
     await new Promise((resolve) => setTimeout(() => {
         resolve("content Resolved");
